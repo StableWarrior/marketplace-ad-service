@@ -26,7 +26,7 @@ _test_settings = Settings(
     postgres_username="fake",
     jwt_secret=JWT_SECRET,
     jwt_algorithm=JWT_ALGORITHM,
-    kafka_brokers="localhost:9092",
+    kafka_bootstrap_servers="localhost:9092",
     kafka_topic_marketplace_ads="ads",
 )
 
